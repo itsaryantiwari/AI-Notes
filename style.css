@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    width: 100vw;
+    background-color: pink;
+    font-family: 'Architects Daughter', cursive;
+}
+
+main{
+  font-family: 'Architects Daughter', cursive;
+  background-color: pink;
+    margin: 1rem 0;    
+}
+
+.container-1{
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.container-2{
+    width: 80%;
+    margin-block: 2rem;
+    margin-inline: 10%;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container-3{
+    display: none;
+    justify-content: center;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+form{
+    width: 240px;
+    height: 260px;
+    position: relative;
+}
+
+textarea{
+    width: 240px;
+    height: 260px;
+    padding: 0.5rem;
+    padding-top: 2rem;
+    outline: none;
+    text-align: start;
+    border: none;
+    color: maroon;
+    box-shadow: 5px 10px 15px gray;
+    overflow: hidden;
+}
+
+#check-icon{
+    position: absolute;
+    top: 5px;
+    right: 35px;
+    font-size: 1.5rem;
+    color: green;
+}
+
+#x-icon{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 1.5rem;
+    color: rgb(250, 27, 64);
+}
